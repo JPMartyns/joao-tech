@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="192px" height="272px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 192 271.54"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:black}
+    .fil1 {fill:url(#id0)}
+    .fil9 {fill:url(#id1)}
+    .fil2 {fill:url(#id2)}
+    .fil8 {fill:url(#id3)}
+    .fil5 {fill:url(#id4)}
+    .fil6 {fill:url(#id5)}
+    .fil7 {fill:url(#id6)}
+    .fil3 {fill:url(#id7)}
+    .fil4 {fill:url(#id8)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="102.04" y1="132.06" x2="96.09" y2="133.87">
+   <stop offset="0" style="stop-opacity:1; stop-color:#DBC3E3"/>
+   <stop offset="0.329412" style="stop-opacity:1; stop-color:#6E3FAC"/>
+   <stop offset="0.678431" style="stop-opacity:1; stop-color:#2A49C8"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#000C36"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="102.72" y1="141.59" x2="89.15" y2="143.27">
+   <stop offset="0" style="stop-opacity:1; stop-color:#DBC3E3"/>
+   <stop offset="0.329412" style="stop-opacity:1; stop-color:#6E3FAC"/>
+   <stop offset="0.678431" style="stop-opacity:1; stop-color:#2A49C8"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#170400"/>
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" xlink:href="#id1" x1="100.72" y1="133.66" x2="98.46" y2="137.89">
+  </linearGradient>
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" xlink:href="#id1" x1="89.15" y1="128.28" x2="102.72" y2="129.96">
+  </linearGradient>
+  <linearGradient id="id4" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="91.33" y1="138.43" x2="93.13" y2="133.13">
+  </linearGradient>
+  <linearGradient id="id5" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="94.49" y1="132.26" x2="92.35" y2="138.05">
+  </linearGradient>
+  <linearGradient id="id6" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="94.59" y1="137.68" x2="89.88" y2="139.49">
+  </linearGradient>
+  <linearGradient id="id7" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="98.24" y1="132.07" x2="94.96" y2="133.87">
+  </linearGradient>
+  <linearGradient id="id8" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="97.29" y1="139.35" x2="99.44" y2="134.69">
+  </linearGradient>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2170207672048">
+   <rect class="fil0" x="88.5" y="128.34" width="14.86" height="14.86"/>
+   <g>
+    <g>
+     <g>
+      <polygon class="fil1" points="96.31,131.98 96.31,132.72 101.08,132.72 101.08,133.96 101.81,133.96 101.81,131.98 "/>
+     </g>
+     <g>
+      <polygon class="fil2" points="98.61,133.22 98.61,138.33 99.35,138.33 99.35,133.96 100.57,133.96 100.57,133.22 "/>
+     </g>
+     <g>
+      <polygon class="fil3" points="98.11,133.22 95.82,133.22 95.82,131.99 95.08,131.99 95.08,133.96 98.11,133.96 "/>
+     </g>
+     <g>
+      <polygon class="fil4" points="97.37,134.46 97.37,139.57 99.36,139.57 99.36,138.83 98.11,138.83 98.11,134.46 "/>
+     </g>
+    </g>
+    <g>
+     <g>
+      <polygon class="fil5" points="93.17,138.33 93.17,133.23 92.42,133.23 92.43,137.59 91.3,137.59 91.3,138.33 "/>
+     </g>
+     <g>
+      <polygon class="fil6" points="94.41,131.99 92.43,131.99 92.43,132.73 93.67,132.73 93.67,138.33 94.41,138.33 "/>
+     </g>
+     <g>
+      <polygon class="fil7" points="90.79,137.59 90.05,137.59 90.06,139.57 94.41,139.57 94.41,138.83 90.79,138.83 "/>
+     </g>
+    </g>
+   </g>
+   <polygon class="fil8" points="88.5,129.9 88.5,128.34 103.37,128.34 103.37,129.9 "/>
+   <polygon class="fil9" points="103.37,143.21 103.37,141.66 88.5,141.66 88.5,143.21 "/>
+  </g>
+ </g>
+</svg>
