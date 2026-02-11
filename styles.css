@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Lilita+One&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,500;1,500&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     font-size: 16px;
@@ -11,157 +11,86 @@
     --canto-redondo: 1rem;
 }
 
-.audiowide-regular {
-  font-family: "Audiowide", sans-serif;
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
+  font-style: italic;
 }
 
 
-header {
-   
-    padding: 10px;
-    background-color: black;
-    padding-bottom: 0px;
-    width: 100%;
-    margin: 0px;
+/* ===== Maintenance page only ===== */
+body.maintenance{
+  margin: 0;
 }
 
-#logo {
-   
-    width: 270px;
-    margin-top: 33px;
-    align-items: flex-start;
-    padding-left: 20px;
-
-}
-    
-
-#logo img {
-    max-width: 100%;
- 
+.maintenance-wrap{
+  max-width: 900px;
 }
 
-a {
-    text-decoration: none;
+.maintenance-img{
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-a:link {
-    color: gray;
+/* Footer com a mesma largura da imagem */
+.maintenance-footer{
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px 12px;
+  margin-top: 8px;
+
+  color: #fff;
+  line-height: 1;
+  font-size: 14px;
 }
 
-a:visited {
-    color: gray;
+/* Texto do copyright */
+.maintenance-copy{
+  font-weight: 600;
 }
 
-a:active {
-    color: cadetblue;
+/* Ícones menores e consistentes */
+.maintenance-social{
+  display: flex;
+  gap: 10px;
 }
 
-a:hover {
-    color: rgb(135, 135, 135);
-    transform: scale(1.03);
+.maintenance-social a{
+  color: #fff;
+  text-decoration: none;
+
+  width: 32px;
+  height: 32px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
 }
 
-
-#banner{
-    background-image: url("images/banner.jpg");
-    background-position: left;
-    background-size: cover;
-    height: 130px;
-    flex-grow: 1;
-    display: flex;
-   margin-right: 15px;
-    margin-top: 10px;
-    
-    
-    
+.maintenance-social i{
+  font-size: 18px;
 }
 
-#banner h4 {
-    display: inline;
-    padding: 1rem 1rem;
-    color: rgb(255, 255, 255);
-    margin-top: 10px;
-    font-family: "Orbitron", sans-serif;
-    text-align: center;
-    margin-left: 20px;
+/* Mobile */
+@media (max-width: 576px){
+  .maintenance-footer{
+    padding: 6px 8px;
+    font-size: 11px;
+  }
 
-}
+  .maintenance-social a{
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+  }
 
-#banner h4:hover {
-    transform: scale(1.05);
-    opacity: 0.8;
-
-}
-
-
-.bg-nav {
-    font-family: "Orbitron", sans-serif;
-    font-weight: 700;
-    background-color: black;
-    display: flex;
-    width: 100%;
- 
-}
-
-section {
-    margin: 30px 30px;
-}
-
-footer {
-    background-color: black;
-    text-align: center;
-    font-family: "Orbitron", sans-serif;
-    font-weight: 700;
-    color: white;
-}
-
-footer ul .list-group-item{
-    background-color: transparent;
-    border: transparent;
-    padding-right: 10px;
-    
-    
-}
-
-/* footer ul li.list-group-item a{
-    & .fa-square-github {
-        color: var(--cor-github);
-    }
-    & .fa-square-facebook{
-        color: var(--cor-facebook);
-    }
-    & .fa-x-twitter{
-        color: var(--cor-x);
-    }
-    & .fa-square-instagram{
-        background: var(--cor-instagram-gradient);
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        -webkit-background-clip: text;
-    }
-    & .fa-linkedin{
-        color: var(--cor-linkedin);
-    }
-    & .fa-square-whatsapp{
-        color: var(--cor-whatsapp);
-    }
-
-} */
-
-footer ul li.list-group-item a:hover {
-    opacity: 0.7;
-
-}
-
-footer ul li .fa-brands:hover{
-    transform: scale(1.2);
-    /* transform: rotate(360deg); */
-    transition: 0.2s;
-}
-
-footer ul li .fa-brands{
-    font-size: 1.3rem;
-    transition: 0.2s;
+  .maintenance-social i{
+    font-size: 14px;
+  }
 }
